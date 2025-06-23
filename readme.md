@@ -18,32 +18,6 @@ You will learn
 - How to document RESTful Web Services with Swagger?
 - How to connect RESTful Services to a backend with JPA?
 
-## Installing Tools
-
-### Our Recommendations
-
-- Use **latest version** of Java
-- Use **latest version** of "Eclipse IDE for Enterprise Java Developers"
-- Remember: Spring Boot 3+ works only with Java 17+
-
-### Installing Java
-
-- Windows - https://www.youtube.com/watch?v=I0SBRWVS0ok
-- Linux - https://www.youtube.com/watch?v=mHvFpyHK97A
-- Mac - https://www.youtube.com/watch?v=U3kTdMPlgsY
-
-#### Troubleshooting
-
-- Troubleshooting Java Installation - https://www.youtube.com/watch?v=UI_PabQ1YB0
-
-### Installing Eclipse
-
-- Windows - https://www.youtube.com/watch?v=toY06tsME-M
-- Others - https://www.youtube.com/watch?v=XveQ9Gq41UM
-
-#### Troubleshooting
-- Configuring Java in Eclipse - https://www.youtube.com/watch?v=8i0r_fcE3L0
-
 
 ## Steps
 
