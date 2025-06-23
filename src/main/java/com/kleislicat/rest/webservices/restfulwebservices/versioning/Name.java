@@ -2,8 +2,8 @@ package com.kleislicat.rest.webservices.restfulwebservices.versioning;
 
 public class Name {
 
-  private String firstName;
-  private String lastName;
+  private final String firstName;
+  private final String lastName;
 
   public Name(String firstName, String lastName) {
     this.firstName = firstName;
