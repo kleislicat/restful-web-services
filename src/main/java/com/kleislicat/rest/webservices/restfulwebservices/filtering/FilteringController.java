@@ -18,7 +18,7 @@ public class FilteringController {
 
     MappingJacksonValue mappingJacksonValue = new MappingJacksonValue(someBean);
 
-    dynamicFiltering(mappingJacksonValue, "field1", "field3");
+    createFilters(mappingJacksonValue, "field1", "field3");
 
     return mappingJacksonValue;
   }
@@ -30,13 +30,13 @@ public class FilteringController {
 
     MappingJacksonValue mappingJacksonValue = new MappingJacksonValue(list);
 
-    dynamicFiltering(mappingJacksonValue, "field2", "field3");
+    createFilters(mappingJacksonValue, "field2", "field3");
 
     return mappingJacksonValue;
 
   }
 
-  private static void dynamicFiltering(MappingJacksonValue mappingJacksonValue,
+  private static void createFilters(MappingJacksonValue mappingJacksonValue,
       String... includedFields) {
     SimpleBeanPropertyFilter filter = SimpleBeanPropertyFilter.filterOutAllExcept(includedFields);
 
